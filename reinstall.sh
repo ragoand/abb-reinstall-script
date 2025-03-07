@@ -10,4 +10,4 @@ dpkg -r synosnap;
 echo "Reinstalling abb...";
 ./install.run
 echo "Reconnecting..."
-abb-cli -c --address icarus.zapt.org --username wosktools --password [PASSWORD_HERE]
+abb-cli -c --address [HOSTNAME] --username [USERNAME] --password [PASSWORD_HERE]
