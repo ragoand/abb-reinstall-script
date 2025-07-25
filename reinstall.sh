@@ -4,7 +4,7 @@ rm install.run;
 rm README;
 echo "Uninstalling services...";
 dpkg -r synology-active-backup-business-linux-service;
-dokg -r synosnap;
+dpkg -r synosnap;
 echo "Downloading Synology Active Backup Business 2.7.1-3235...";
 wget "http://updates.andrearago.it/abb/latest.zip" -O abb.zip;
 echo "Extracting...";
